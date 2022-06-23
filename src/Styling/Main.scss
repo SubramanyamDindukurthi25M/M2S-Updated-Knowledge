@@ -1,0 +1,19 @@
+body{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+
+.nav-link{
+    color: white;
+    border: transparent;
+    border-radius: 0.25px;
+    background-color: darkcyan;
+    padding: 0.375rem 0.75rem;
+    display: inline-block;
+}
