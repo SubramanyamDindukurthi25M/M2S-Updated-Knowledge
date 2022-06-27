@@ -6,3 +6,12 @@
 
 3)To install react-hook-form 
   npm install react-hook-form
+
+4)To install redux
+  npm install redux
+
+5)To install react-redux 
+  npm install react-redux
+
+To read state within the component we use useSelector hook.
+To dispatch an action to store we use useDispatch hook
