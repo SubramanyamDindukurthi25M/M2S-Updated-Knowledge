@@ -9,8 +9,10 @@ const App = () => {
         return state.count
     })
 
+    // Invoke useDispatch hook
     const dispatch = useDispatch();
 
+    // Event Handler as callback function
     const handleIncrement = () => {
         dispatch(increment());
     }

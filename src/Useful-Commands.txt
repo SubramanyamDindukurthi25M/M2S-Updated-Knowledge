@@ -13,5 +13,17 @@
 5)To install react-redux 
   npm install react-redux
 
+6)To install redux-thunk
+  npm install redux-thunk
+
+7)To install axios
+  npm install axios
+
+8)To install sweetalert 
+  npm i sweetalert
+
+9)To install redux-toolkit
+  npm install @reduxjs/toolkit
+
 To read state within the component we use useSelector hook.
 To dispatch an action to store we use useDispatch hook
