@@ -5,6 +5,7 @@ import './Styling/Main.scss';
 // import App from './About-React-Router-V6/App';
 // import App from './HC-React-Router-V6/App';
 // import App from './About-React-Hook-Form/App';
+// import App from './PT-React-Router-V6/App';
 
 // import App from './Redux-Tutorial/Components/App';
 // import App from './Redux-API/App';
@@ -30,18 +31,18 @@ import './Styling/Main.scss';
 // dispatch action to store
 // store.dispatch(increment());
 
-import App from './Redux-Toolkit-Tutorial/App';
-import { configureStore } from '@reduxjs/toolkit';
-import { Provider } from 'react-redux';
-import usersSlice from './Redux-Toolkit-Tutorial/features/usersReducer';
+// import App from './Redux-Toolkit-Tutorial/App';
+// import { configureStore } from '@reduxjs/toolkit';
+// import { Provider } from 'react-redux';
+// import usersSlice from './Redux-Toolkit-Tutorial/features/usersReducer';
 
 // store
-const store = configureStore({
-    reducer:{
-        users:usersSlice
-    }
-})
-console.log(store.getState());
+// const store = configureStore({
+//     reducer:{
+//         users:usersSlice
+//     }
+// })
+// console.log(store.getState());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -55,10 +56,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //             <App />
 //         </Provider>
 
-root.render(
-    <React.StrictMode>
-        <Provider store={store}>
-            <App/>
-        </Provider>
-    </React.StrictMode>
-);
+// root.render(
+//     <React.StrictMode>
+//         <Provider store={store}>
+//             <App/>
+//         </Provider>
+//     </React.StrictMode>
+// );
+
+// root.render(
+//     <React.StrictMode>
+//         <App/>
+//     </React.StrictMode>
+// );

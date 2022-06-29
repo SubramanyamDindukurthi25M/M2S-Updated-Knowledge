@@ -26,4 +26,4 @@
   npm install @reduxjs/toolkit
 
 To read state within the component we use useSelector hook.
-To dispatch an action to store we use useDispatch hook
+To dispatch an action to store we use useDispatch hook.
