@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Styling/Main.scss';
+import { BrowserRouter as Router} from 'react-router-dom';
+
 // import App from './About-Filter-Data/App';
 // import App from './About-React-Router-V6/App';
 // import App from './HC-React-Router-V6/App';
@@ -44,6 +46,11 @@ import './Styling/Main.scss';
 // })
 // console.log(store.getState());
 
+/* --------------- */
+import App from './NS-Redux-Toolkit-Project/App';
+import { Provider } from 'react-redux';
+import {store}  from './NS-Redux-Toolkit-Project/redux/store';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
 //     <React.StrictMode>
@@ -66,6 +73,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // root.render(
 //     <React.StrictMode>
-//         <App/>
+//         <Router>
+//             <Provider store={store}>
+//                 <App/>
+//             </Provider>
+//         </Router>
 //     </React.StrictMode>
 // );
