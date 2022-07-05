@@ -1,0 +1,21 @@
+Company Email-Id : Subramanyam.Dindukurthi@minutestoseconds.com
+Password : tdpSub199602#M2S
+Github Password : qwTy90#Q426
+Talent Miner Credentials : admin@admin.com 123456
+
+June Month Working Days - 8
+21/06/22 - Introduction class
+22/06/22 - ReactJS V18 New Addons
+23/06/22 - react-router-dom V6
+24/06/22 - react-hook-form - Text,Email-Id,Password,Select,Radio,textarea,number and Checkboxes.
+27/06/22 - redux concepts
+28/06/22 - API in redux and redux toolkit concepts
+29/06/22 - pt-react-router-dom-v6
+30/06/22 - got access to codebase and went through LOC.
+Salary Credited - Rs.8333 on 01/07/22.
+
+ ---------------------------------------------------------------------------------------------------
+
+July Month Working Days - 21
+01/07/22 - Visited TalentMiner Project source code and understand its flow.
+04/07/22 - Practiced redux-toolkit concepts from NS Youtube channel.

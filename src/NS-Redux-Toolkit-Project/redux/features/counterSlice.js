@@ -2,6 +2,7 @@ import {
     createSlice
 } from "@reduxjs/toolkit/";
 
+// Initial value
 const initialStateValue = {
     count: 0
 }
