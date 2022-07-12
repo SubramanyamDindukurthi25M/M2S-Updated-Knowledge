@@ -1,13 +1,14 @@
 import {
-    createSlice,createAsyncThunk
+    createSlice,
+    createAsyncThunk
 } from "@reduxjs/toolkit";
 import axios from "axios";
 
 // Initial State
 const initialStateValue = {
-    usersData:[],
-    isLoading:false,
-    errorMessage:null 
+    usersData: [],
+    isLoading: false,
+    errorMessage: null
 }
 
 // First, create the thunk
@@ -23,20 +24,20 @@ export const fetchUserByUrl = createAsyncThunk(
 
 const usersSlice = createSlice({
     name: 'usersList',
-    initialState:initialStateValue,
+    initialState: initialStateValue,
     extraReducers: (builder) => {
         builder
-        .addCase(fetchUserByUrl.pending, (state) => {
-            state.isLoading = true;
-        })
-        .addCase(fetchUserByUrl.fulfilled, (state,action) => {
-            state.isLoading = false;
-            state.usersData = action.payload;
-        })
-        .addCase(fetchUserByUrl.rejected, (state) => {
-            state.isLoading = false;
-            state.errorMessage = 'network-issue';
-        })
+            .addCase(fetchUserByUrl.pending, (state) => {
+                state.isLoading = true;
+            })
+            .addCase(fetchUserByUrl.fulfilled, (state, action) => {
+                state.isLoading = false;
+                state.usersData = action.payload;
+            })
+            .addCase(fetchUserByUrl.rejected, (state) => {
+                state.isLoading = false;
+                state.errorMessage = 'network-issue';
+            })
     }
 });
 

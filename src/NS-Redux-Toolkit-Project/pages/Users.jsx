@@ -10,9 +10,9 @@ const Users = () => {
 
     const dispatch = useDispatch();
 
-    useEffect( () => {
+    useEffect(() => {
         dispatch(fetchUserByUrl());
-    },[dispatch]);
+    }, [dispatch]);
 
     return (
         <>
