@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Styling/Main.scss';
-// import { BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 // import App from './About-Filter-Data/App';
 // import App from './About-React-Router-V6/App';
 // import App from './HC-React-Router-V6/App';
 // import App from './About-React-Hook-Form/App';
 // import App from './PT-React-Router-V6/App';
-import {App} from './About-Login-Page/App';
+// import {App} from './About-Login-Page/App';
 
 // import App from './Redux-Tutorial/Components/App';
 // import App from './Redux-API/App';
@@ -49,8 +49,11 @@ import {App} from './About-Login-Page/App';
 
 /* --------------- */
 // import App from './NS-Redux-Toolkit-Project/App';
-// import { Provider } from 'react-redux';
 // import {store}  from './NS-Redux-Toolkit-Project/redux/store';
+
+import { App } from './CRUD-React-RTK/App';
+import { Provider } from 'react-redux';
+import {store} from './CRUD-React-RTK/redux/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -72,11 +75,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //     </React.StrictMode>
 // );
 
-root.render(
-    <React.StrictMode>
-        <App/>
-    </React.StrictMode>
-);
+// root.render(
+//     <React.StrictMode>
+//         <Router>
+//             <Provider store={store}>
+//                 <App/>
+//             </Provider>
+//         </Router>
+//     </React.StrictMode>
+// );
 
 // root.render(
 //     <React.StrictMode>
