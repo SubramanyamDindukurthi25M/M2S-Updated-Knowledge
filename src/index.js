@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Styling/Main.scss';
-import { BrowserRouter as Router} from 'react-router-dom';
+// import { BrowserRouter as Router} from 'react-router-dom';
 
 // import App from './About-Filter-Data/App';
 // import App from './About-React-Router-V6/App';
@@ -51,9 +51,13 @@ import { BrowserRouter as Router} from 'react-router-dom';
 // import App from './NS-Redux-Toolkit-Project/App';
 // import {store}  from './NS-Redux-Toolkit-Project/redux/store';
 
-import { App } from './CRUD-React-RTK/App';
+// import { App } from './CRUD-React-RTK/App';
+// import {store} from './CRUD-React-RTK/redux/store';
+// import {App} from './Photo-Gallery-App/Components/App';
+// import {store} from './Photo-Gallery-App/redux/store';
+import { App } from './Cats-App/App';
 import { Provider } from 'react-redux';
-import {store} from './CRUD-React-RTK/redux/store';
+import {store} from './Cats-App/redux/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -63,6 +67,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //         </Provider>
 //     </React.StrictMode>
 // );
+
 //         <Provider store={store}>
 //             <App />
 //         </Provider>
