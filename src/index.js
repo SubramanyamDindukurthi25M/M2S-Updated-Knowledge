@@ -55,9 +55,10 @@ import './Styling/Main.scss';
 // import {store} from './CRUD-React-RTK/redux/store';
 // import {App} from './Photo-Gallery-App/Components/App';
 // import {store} from './Photo-Gallery-App/redux/store';
-import { App } from './Cats-App/App';
-import { Provider } from 'react-redux';
-import {store} from './Cats-App/redux/store';
+// import { App } from './About-Axios-Tutorial/App';
+// import { App } from './Cats-App/App';
+// import { Provider } from 'react-redux';
+// import {store} from './Cats-App/redux/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -67,6 +68,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //         </Provider>
 //     </React.StrictMode>
 // );
+// root.render(
+//     <React.StrictMode>
+//         <App/>
+//     </React.StrictMode>
+// )
 
 //         <Provider store={store}>
 //             <App />

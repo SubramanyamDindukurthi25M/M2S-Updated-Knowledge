@@ -51,7 +51,6 @@ export const AddUserForm = () => {
                         inputProps={
                             {type:'email',placeholder:'johndoe@gmail.com'}
                         }
-                        type='email'
                         value={userValues.email}
                         onChange={(e) => setUserValues({...userValues,email:e.target.value})}
                     />
