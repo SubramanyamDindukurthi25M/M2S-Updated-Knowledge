@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import { NumbersList } from "./NumbersList";
 import { NumbersControl } from "./NumbersControl";
+import { AddNumber } from "./AddNumber";
 
 export const NumbersContainer = () => {
     const {
@@ -30,6 +31,7 @@ export const NumbersContainer = () => {
             </h4>
             <NumbersList/>
             <NumbersControl/>
+            <AddNumber/>
         </>
     )
 }

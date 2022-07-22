@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import {generateNumbers,incrementByTwo} from '../redux/features/numbersSlice';
+import {generateNumbers,incrementByTwo,removeAll} from '../redux/features/numbersSlice';
 import { BtnSkeleton } from "./BtnSkeleton";
 
 export const NumbersControl = () => {
@@ -17,6 +17,10 @@ export const NumbersControl = () => {
         dispatch(incrementByTwo());
     }
 
+    const handleRemoveAll = () => {
+        dispatch(removeAll());
+    }
+
     return (
         <>
             <BtnSkeleton
@@ -29,6 +33,7 @@ export const NumbersControl = () => {
             />
             <BtnSkeleton
                 text='remove-all'
+                onClick={handleRemoveAll}
             />
         </>
     )
