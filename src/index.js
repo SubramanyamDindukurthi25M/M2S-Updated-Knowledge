@@ -57,25 +57,26 @@ import './Styling/Main.scss';
 // import {store} from './Photo-Gallery-App/redux/store';
 // import { App } from './About-Axios-Tutorial/App';
 // import { App } from './Cats-App/App';
-import { App } from './CRUD-In-RTK/App';
-import { Provider } from 'react-redux';
-import {store} from './CRUD-In-RTK/redux/store';
+// import { App } from './CRUD-In-RTK/App';
+// import { Provider } from 'react-redux';
+// import {store} from './CRUD-In-RTK/redux/store';
 // import {store} from './RTK-JS-ECommerce-Project/redux/store';
+import { App } from './NS-Search-Filter-Concept/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <React.StrictMode>
-        <Provider store={store}>
-            <App />
-        </Provider>
-    </React.StrictMode>
-);
-
 // root.render(
 //     <React.StrictMode>
-//         <App/>
+//         <Provider store={store}>
+//             <App />
+//         </Provider>
 //     </React.StrictMode>
-// )
+// );
+
+root.render(
+    <React.StrictMode>
+        <App/>
+    </React.StrictMode>
+)
 
 //         <Provider store={store}>
 //             <App />
