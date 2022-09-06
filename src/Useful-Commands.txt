@@ -9,7 +9,7 @@
 
 4)To install redux
   npm install redux
-
+  
 5)To install react-redux 
   npm install react-redux
 
