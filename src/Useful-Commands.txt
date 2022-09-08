@@ -27,3 +27,6 @@
 
 To read state within the component we use useSelector hook.
 To dispatch an action to store we use useDispatch hook.
+
+10)Use these commands to add PrimeReact initially.
+npm install primereact primeicons primeflex react-transition-group

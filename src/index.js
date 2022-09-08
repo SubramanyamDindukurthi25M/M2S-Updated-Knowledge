@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Styling/Main.scss';
+
+import "primereact/resources/themes/bootstrap4-dark-purple/theme.css"; //theme
+import "primereact/resources/primereact.min.css";                  //core css
+import "primeicons/primeicons.css";                                //icons
+import "primeflex/primeflex.css";                                  //primeflex
+
 // import { BrowserRouter as Router} from 'react-router-dom';
 
 // import App from './About-Filter-Data/App';
@@ -62,6 +68,7 @@ import './Styling/Main.scss';
 // import {store} from './CRUD-In-RTK/redux/store';
 // import {store} from './RTK-JS-ECommerce-Project/redux/store';
 import { App } from './NS-Search-Filter-Concept/App';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
