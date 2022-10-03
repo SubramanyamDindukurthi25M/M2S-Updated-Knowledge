@@ -2,7 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -34,5 +34,24 @@ a {
 svg {
     width: 20px;
     color: darkgray;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.imageSection {
+    position: relative;
+    width: 40rem;
+    height: 40rem;
+    overflow: hidden;
+    margin: 4rem auto 1rem auto;
+    background: linear-gradient(to bottom, teal, lightgray);
+    border-radius: 50%;
+}
+
+.boxShadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }

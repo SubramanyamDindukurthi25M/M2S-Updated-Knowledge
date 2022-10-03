@@ -67,8 +67,8 @@ import "primeflex/primeflex.css";                                  //primeflex
 // import { Provider } from 'react-redux';
 // import {store} from './CRUD-In-RTK/redux/store';
 // import {store} from './RTK-JS-ECommerce-Project/redux/store';
-import { App } from './NS-Search-Filter-Concept/App';
-
+// import { App } from './NS-Search-Filter-Concept/App';
+import { App } from './Dev-Ed-Project/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
