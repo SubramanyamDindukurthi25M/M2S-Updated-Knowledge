@@ -11,7 +11,6 @@ export const App = () => {
     const [inputValue, setInputValue] = useState('');
     const [dummyCity, setDummyCity] = useState('kadapa');
 
-
     const apiUrlAddress = `https://api.openweathermap.org/data/2.5/weather?q=${dummyCity}&units=imperial&appid=${API_KEY}`;
 
     const fetchData = () => {
@@ -70,7 +69,8 @@ export const App = () => {
             </form>
 
             <p className="lead px-3">
-                Weather report for <span className="text-success text-uppercase">{data.name}</span>
+                Weather report for <span className="text-success text-uppercase">
+                    {data.name}</span>
             </p>
             <DisplayData
                 value={data}

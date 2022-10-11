@@ -3,7 +3,8 @@ export const DisplayData = ({value}) => {
         coord,
         main
     } = value;
-    const fahrenheitToCelsius = (main.temp - 32) * 5 / 9;
+    const fahrenheitToCelsius = main && ((main.temp - 32) * 5 / 9)
+    
     return (
         <>
             {value && <table className="table table-sm text-center">
@@ -32,17 +33,17 @@ export const DisplayData = ({value}) => {
                     </td>
                     <td>
                         {
-                            coord.lat
+                            coord && coord.lat 
                         }
                     </td>
                     <td>
                         {
-                            coord.lon
+                            coord && coord.lon
                         }
                     </td>
                     <td>
                         {
-                            fahrenheitToCelsius.toFixed()
+                            fahrenheitToCelsius && fahrenheitToCelsius.toFixed()
                         }
                     </td>
                 </tr>

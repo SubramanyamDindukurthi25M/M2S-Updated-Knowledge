@@ -55,3 +55,94 @@ li {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }
+
+span {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 20px 0;
+}
+
+// Styling for left-content
+.home {
+    .left-content {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        color: white;
+        overflow: hidden;
+
+        .content {
+            padding: 30px;
+
+            .logo {
+                width: 50px;
+                height: 50px;
+                line-height: 70px;
+                color: #000;
+                background-color: #fff;
+
+                h1 {
+                    font-size: 40px;
+                }
+            }
+
+            .home-image {
+                margin-top: 60px;
+
+                img {
+                    position: absolute;
+                    top: -34%;
+                    left: -40%;
+                    height: 135vh;
+                    z-index: -1;
+                }
+            }
+
+            .text {
+                h1 {
+                    font-size: 48px;
+                    line-height: 50px;
+                }
+
+                p {
+                    margin: 20px 0 5px 0;
+                }
+
+                span {
+                    color: crimson;
+                    font-size: 15px;
+                }
+            }
+
+            .textTwo {
+                margin-top: 20px;
+            }
+
+            .qrCode {
+                img {
+                    margin-top: 5%;
+                    width: auto;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .right-content {
+        padding: 20px;
+        color: #000;
+        position: absolute;
+        right: 0;
+
+        .icons {
+            i {
+                margin-left: 20px;
+            }
+        }
+    }
+}
