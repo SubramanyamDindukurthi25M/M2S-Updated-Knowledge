@@ -1,6 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './Styling/Main.scss';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { QueryClient,QueryClientProvider } from 'react-query';
+import './Styling/Main.scss'
 
 // import "primereact/resources/themes/bootstrap4-dark-purple/theme.css"; //theme
 // import "primereact/resources/primereact.min.css";                  //core css
@@ -72,7 +73,8 @@ import './Styling/Main.scss';
 // import { App } from './ReactJS-Weather-App/App';
 // import { App } from './ReactJS-Blog-Website/App';
 // import { App } from './useEffect-Concept/App';
-import { App } from './About-CheckBox/App';
+// import { App } from './About-CheckBox/App';
+import { App } from './React-Query-Tutorial/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -83,9 +85,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //     </React.StrictMode>
 // );
 
+const queryClient = new QueryClient()
+
 root.render(
     <React.StrictMode>
-        <App/>
+        <QueryClientProvider client={queryClient}>
+            <App/>
+        </QueryClientProvider>
     </React.StrictMode>
 )
 
