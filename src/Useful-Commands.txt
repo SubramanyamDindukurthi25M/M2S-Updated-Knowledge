@@ -1,5 +1,5 @@
 1)To install Sass
-  npm install node-sass
+   npm install sass --save-dev  
 
 2)To install react-router-dom-v6
   npm install react-router-dom@6

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { QueryClient,QueryClientProvider } from 'react-query';
+// import { QueryClient,QueryClientProvider } from 'react-query'
 import './Styling/Main.scss'
 
 // import "primereact/resources/themes/bootstrap4-dark-purple/theme.css"; //theme
@@ -74,7 +74,8 @@ import './Styling/Main.scss'
 // import { App } from './ReactJS-Blog-Website/App';
 // import { App } from './useEffect-Concept/App';
 // import { App } from './About-CheckBox/App';
-import { App } from './React-Query-Tutorial/App';
+// import { App } from './React-Query-Tutorial/App';
+import { App } from './LamaDev-Knowledge/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -85,15 +86,21 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //     </React.StrictMode>
 // );
 
-const queryClient = new QueryClient()
-
 root.render(
     <React.StrictMode>
-        <QueryClientProvider client={queryClient}>
-            <App/>
-        </QueryClientProvider>
+        <App/>
     </React.StrictMode>
 )
+
+// const queryClient = new QueryClient()
+
+// root.render(
+//     <React.StrictMode>
+//         <QueryClientProvider client={queryClient}>
+//             <App/>
+//         </QueryClientProvider>
+//     </React.StrictMode>
+// )
 
 //         <Provider store={store}>
 //             <App />
