@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 // import { QueryClient,QueryClientProvider } from 'react-query'
 import './Styling/Main.scss'
+// import { App } from './Context-API-Tutorial-One/App';
 
 // import "primereact/resources/themes/bootstrap4-dark-purple/theme.css"; //theme
 // import "primereact/resources/primereact.min.css";                  //core css
@@ -75,9 +76,11 @@ import './Styling/Main.scss'
 // import { App } from './useEffect-Concept/App';
 // import { App } from './About-CheckBox/App';
 // import { App } from './React-Query-Tutorial/App';
-import { App } from './LamaDev-Knowledge/App';
+// import { App } from './LamaDev-Knowledge/App';
+import { App } from './Context-API-Practice/App'
+import { AppContextApi } from './Context-API-Practice/context/AppContext'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'))
 // root.render(
 //     <React.StrictMode>
 //         <Provider store={store}>
@@ -88,7 +91,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <App/>
+        <AppContextApi>
+            <App />
+        </AppContextApi>
     </React.StrictMode>
 )
 
